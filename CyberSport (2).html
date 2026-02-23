@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberSport - Download Your Favorite Games</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: "cyber.jpg") no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      font-size: 4em;
+      font-weight: 800;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 3s infinite alternate;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #0072ff, 0 0 20px #0072ff;
+      }
+      to {
+        text-shadow: 0 0 20px #00c6ff, 0 0 30px #00c6ff;
+      }
+    }
+
+    nav {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00c6ff;
+    }
+
+    main {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .game-card {
+      display: inline-block;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      margin: 20px;
+      padding: 20px;
+      width: 250px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00c6ff;
+    }
+
+    .game-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .download-btn {
+      background: #0072ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 1em;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .download-btn:hover {
+      background: #00c6ff;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.5em;
+      }
+      .game-card {
+        width: 90%;
+      }
+    }
+   
+    body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  overflow-x: hidden;
+
+  /* Neon robotic gradient */
+  background: radial-gradient(circle at 20% 30%, #00f7ff 0%, transparent 40%),
+              radial-gradient(circle at 80% 70%, #0072ff 0%, transparent 40%),
+              linear-gradient(135deg, #0f0f1a, #1a1a2e, #000814);
+
+  background-blend-mode: screen;
+  min-height: 100vh;
+}
+    
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>CyberSport</h1>
+    <p>Download and play the best PC games today!</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#games">Games</a>
+  </nav>
+  
+
+  <main id="games">
+    <h2>Popular Games With direct download link</h2>
+
+    <div class="game-card">
+      <img src="blur.png" alt="Blur" />
+      <h3>Blur</h3>
+      <button class="download-btn"><a href="Blur.rar">Download</a></button>
+    </div>
+
+    <div class="game-card">
+      <img src="gta5.jpg" alt="GTA5" />
+      <h3>GTA V</h3>
+      <button class="download-btn"><a href="Grand Theft Auto V.rar">Download</a></button>
+    </div>
+
+    <div class="game-card">
+      <img src="spidey.JPG" alt="Spidey" />
+      <h3>Spider Man</h3>
+      <button class="download-btn"><a href="Spider Man Miles morales.rar">Download</a></button>
+    </div>
+
+   <div class="game-card">
+      <img src="gta4.JPG" alt="GTA IV" />
+      <h3>GTA IV</h3>
+      <button class="download-btn"><a href="Grand Theft Auto IV.rar">Download</a></button>
+    </div>
+
+    <div class="game-card">
+      <img src="Comb.png" alt="Combat Master" />
+      <h3>Combat Master</h3>
+      <button class="download-btn"><a href="Combat Master.rar">Download</a></button>
+    </div>
+
+    <div class="game-card">
+      <img src="pes.JPG" alt="E football 23" />
+      <h3>E football 23</h3>
+      <button class="download-btn"><a href="E football 23.rar">Download</a></button>
+    </div>
+
+    
+
+    <div class="game-card">
+      <img src="dio.jfif" alt="Saints Row IV" />
+      <h3>Saints Row IV</h3>
+      <button class="download-btn"><a href="Saints Row 4.rar">Download</a></button>
+    </div>
+
+    <main id="home"></main>
+
+    <div class="game-card">
+      <img src="hhh.JPG" alt="Razer Game Booster" />
+      <h3>Razer Game Booster</h3>
+      <button class="download-btn"><a href="RazerCortexInstaller.rar">Download</a></button>
+    </div>
+
+    <div class="game-card">
+      <img src="OGX.JPG" alt="Opera GX" />
+      <h3>Opera GX</h3>
+      <button class="download-btn"><a href="OperaGXSetup.rar">Download</a></button>
+    </div>
+
+
+    
+
+
+     </main>
+
+  <footer>
+    <p>&copy; 2026 CyberSport. All rights reserved.</p>
+  </footer>
+</body>
+</html>
